@@ -7,6 +7,8 @@ void swap();
 int incrementAndGet();
 
 int main() {
+    setbuf(stdout, NULL);
+
     printf("Hello, World!\n");
 
     printf("x = %d, y = %d\n", x, y);
